@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+    
+                 
+                            
+                                                                                            
+           
+<RelativeLayout
+    android:id="@+id/spinnerGroup"
+    android:layout_width="140dp"
+    android:layout_height="60dp"
+    android:layout_weight=".28"
+    android:tag="layout/action_sort_0"    
+    android:orientation="horizontal"  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <engineertest.android.touche.com.paytouch.ui.views.Spinner
+        android:id="@+id/sort_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/DropDownMenuTheme"
+        android:entries="@array/sorting_menu"
+        android:tag="binding_1"                              
+                                                 
+        android:visibility="invisible"
+        />
+
+
+    <FrameLayout
+        android:tag="binding_2"                     
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/orderby" />
+    </FrameLayout>
+
+</RelativeLayout>
+         

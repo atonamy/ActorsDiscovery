@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PayTouch</string>
+    <string name="search">Search</string>
+    <string name="name">name</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="popularity">popularity</string>
+    <string name="location">location</string>
+    <string name="write_name">write name</string>
+    <string name="select_location">select location</string>
+    <string name="is_top">is top?</string>
+    <string name="filmography">Filmography</string>
+    <string name="error_title">Oops!</string>
+    <string name="error_message">Something went wrong :(</string>
+    <string name="votes" formatted="true">votes %s</string>
+    <string name="search_title">Search</string>
+    <string name="search_message">Searching criteria is not set</string>
+    <string name="search_not_found">Nothing were found</string>
+    <array name="sorting_menu">
+        <item>Order by
+            <b>name</b>
+        </item>
+        <item>Order by
+            <b>popularity</b>
+        </item>
+    </array>
+</resources>

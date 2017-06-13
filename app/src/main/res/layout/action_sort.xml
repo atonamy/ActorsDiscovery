@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="viewModel"
+            type="engineertest.android.touche.com.paytouch.data.view_model.MenuViewModel" />
+    </data>
+<RelativeLayout
+    android:id="@+id/spinnerGroup"
+    android:layout_width="140dp"
+    android:layout_height="60dp"
+    android:layout_weight=".28"
+    android:onClick="@{viewModel.onClick}"
+    android:orientation="horizontal">
+
+    <engineertest.android.touche.com.paytouch.ui.views.Spinner
+        android:id="@+id/sort_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        style="@style/DropDownMenuTheme"
+        android:entries="@array/sorting_menu"
+        android:selectedItemPosition="@={viewModel.sortType}"
+        app:events="@{viewModel.menuOrderEvents}"
+        android:visibility="invisible"
+        />
+
+
+    <FrameLayout
+        android:background="@{viewModel.background}"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/orderby" />
+    </FrameLayout>
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/archie/Projects/paytouch-android-test/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/archie/Projects/paytouch-android-test/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

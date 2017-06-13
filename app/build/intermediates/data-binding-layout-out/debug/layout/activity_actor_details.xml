@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                          
+     
+    
+                 
+                            
+                                                                                             
+           
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp"
+     android:tag="layout/activity_actor_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:tag="binding_1"               
+        fresco:srcCompat="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/actor_pic"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            fresco:roundedCornerRadius="65dp"
+            fresco:roundingBorderWidth="4dp"
+            fresco:roundingBorderColor="@color/colorDark"
+            android:tag="binding_2"                
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <engineertest.android.touche.com.paytouch.ui.views.TextView
+                    android:id="@+id/first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_3"              
+                                                                  
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font_size_lg"/>
+
+                <engineertest.android.touche.com.paytouch.ui.views.TextView
+                    android:id="@+id/last_name"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_4"             
+                                                                  
+                    android:textSize="@dimen/font_size_lg"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:tag="binding_5"        
+                    />
+
+                <engineertest.android.touche.com.paytouch.ui.views.TextView
+                    android:id="@+id/location"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_6"             
+                    android:textStyle="italic"
+                    android:layout_gravity="center"
+                                                                  
+                    android:textSize="@dimen/font_size_s"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+        <engineertest.android.touche.com.paytouch.ui.views.TextView
+            android:id="@+id/description"
+            android:maxLines="4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:tag="binding_7"                
+                                                          
+            android:textSize="@dimen/font_size_s"/>
+
+
+
+    </LinearLayout>
+
+    <engineertest.android.touche.com.paytouch.ui.views.TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filmography"
+        android:textStyle="bold"
+        android:tag="binding_8"                       
+        android:textSize="@dimen/font_size_lg"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/filmography"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:tag="binding_9"           
+                                                      
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+             

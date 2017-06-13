@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDark">#010101</color>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#454954</color>
+    <color name="colorAccent">#00a191</color>
+    <color name="colorHighlight1">#00b9e7</color>
+    <color name="colorHighlight2">#6ea200</color>
+    <color name="colorPopularity">#eeeeee</color>
+    <color name="colorMenu">#00a191</color>
+    <color name="roundButton">#e0be00</color>
+    <color name="colorButton">#72a201</color>
+    <color name="background">#787882</color>
+</resources>

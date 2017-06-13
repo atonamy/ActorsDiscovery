@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/archie/.android/build-cache/b6e65f640c96f11d977aa97842a96c4624329b53/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/archie/.android/build-cache/b6e65f640c96f11d977aa97842a96c4624329b53/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

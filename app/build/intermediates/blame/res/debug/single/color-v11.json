@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/archie/.android/build-cache/cd3b3096d1f20bf97cb63b3551e29d29bc0ac989/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/archie/.android/build-cache/cd3b3096d1f20bf97cb63b3551e29d29bc0ac989/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

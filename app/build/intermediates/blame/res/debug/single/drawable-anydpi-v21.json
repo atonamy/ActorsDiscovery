@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/archie/.android/build-cache/b6e65f640c96f11d977aa97842a96c4624329b53/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/archie/Projects/paytouch-android-test/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/archie/.android/build-cache/b6e65f640c96f11d977aa97842a96c4624329b53/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

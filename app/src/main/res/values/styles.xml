@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/ActionBarTheme</item>
+        <item name="actionBarSize">70dp</item>
+    </style>
+
+
+
+    <style name="ActionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:layout_marginLeft">-50dp</item>
+    </style>
+
+    <style name="RadioButtonTheme">
+        <item name="android:button">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawableLeft">@drawable/radio_button</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="DropDownMenuTheme" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:background">@null</item>
+        <item name="android:popupBackground">@color/colorMenu</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:dropDownVerticalOffset">35dp</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:popupBackground">@drawable/spinner</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:dropDownVerticalOffset">42dp</item>
+
+    </style>
+
+    <style name="EditTextTheme" parent="@style/Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:popupBackground">@drawable/spinner</item>
+        <item name="android:dropDownVerticalOffset">3dp</item>
+        <item name="android:textColorHint">@color/background</item>
+
+    </style>
+
+
+    <style name="ButtonTheme" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ProgressBarTheme">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>
